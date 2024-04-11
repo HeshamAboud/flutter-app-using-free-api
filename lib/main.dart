@@ -44,13 +44,13 @@ class MyApp extends StatelessWidget {
       ),
       // home: SimpleEcommerce(),
       // home: CustomSlidersPage(),
-      home: BlocProvider.value(
-        value: getIt<PostsCubit>(),
-        child: HeroListPage(),
-      ),
+      // home: BlocProvider.value(
+      //   value: getIt<PostsCubit>(),
+      //   child: HeroListPage(),
+      // ),
       //  home: NewsFeedPage1(),
       //  home: ProfilePage1(),
-      // home: ConcentricAnimationOnboarding(),
+      home: ConcentricAnimationOnboarding(),
       //  home: SettingsPage2(),
       //  home: MyHomePage(),
       //  home: GoogleBottomBar(),
